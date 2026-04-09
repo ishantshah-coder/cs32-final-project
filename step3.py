@@ -23,6 +23,9 @@
 # injury risk: HIGH
 # warnings + recommendations
 
+print("Welcome to the Injury Risk & Recovery Analysis System.")
+print("This tool estimates recovery quality and injury risk based on daily habits.")
+
 def calculate_sleep_score(sleep):
     if sleep >= 8:
         return 25
