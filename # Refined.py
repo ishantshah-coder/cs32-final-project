@@ -24,7 +24,7 @@ def get_int_in_range(prompt, minimum, maximum): #repeatedly ask the user for inp
     """Ask the user for an integer within a given range."""
     while True:
         try:
-            value = int(input(prompt))
+            value = int(input(prompt)) #int(input(...)) converts the input into an integer
             if minimum <= value <= maximum:
                 return value
             print(f"Please enter a number from {minimum} to {maximum}.")
@@ -32,7 +32,7 @@ def get_int_in_range(prompt, minimum, maximum): #repeatedly ask the user for inp
             print("Please enter a valid integer.")
 
 
-def get_choice(prompt, choices):
+def get_choice(prompt, choices): #repeatedly prompt the user until they enter a valid choice from a predefined list of options, ensuring only acceptable inputs are returned.
     """Ask the user for one of the allowed choices."""
     while True:
         value = input(prompt).strip().lower()
