@@ -20,7 +20,7 @@ def get_non_negative_float(prompt): #repeatedly prompts the user for input using
             print("Please enter a valid number.")
 
 
-def get_int_in_range(prompt, minimum, maximum):
+def get_int_in_range(prompt, minimum, maximum): #repeatedly ask the user for input until they enter a valid integer within a specified range, ensuring the program only accepts appropriate values
     """Ask the user for an integer within a given range."""
     while True:
         try:
