@@ -11,7 +11,7 @@ def get_non_negative_float(prompt): #repeatedly prompts the user for input using
     """Ask the user for a non-negative float."""
     while True:
         try:
-            value = float(input(prompt))
+            value = float(input(prompt)) #float() function converts a value (usually a string from user input) into a decimal number (a floating-point number) so it can be used in calculations.
             if value < 0:
                 print("Please enter a non-negative number.")
             else:
