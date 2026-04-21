@@ -38,7 +38,7 @@ def get_choice(prompt, choices): #repeatedly prompt the user until they enter a 
         value = input(prompt).strip().lower()
         if value in choices:
             return value
-        print(f"Please enter one of these choices: {', '.join(choices)}")
+        print(f"Please enter one of these choices: {', '.join(choices)}") #if asked if vegan or meat eater, cant write anyting else etc. 
 
 
 def calculate_sleep_score(sleep_hours):
