@@ -7,7 +7,7 @@ print("This tool estimates recovery quality and injury risk based on daily habit
 print()
 
 
-def get_non_negative_float(prompt):
+def get_non_negative_float(prompt): #repeatedly prompts the user for input using a while True loop until they enter a valid non-negative number, ensuring the program only continues with correct data
     """Ask the user for a non-negative float."""
     while True:
         try:
