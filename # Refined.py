@@ -38,7 +38,7 @@ def get_choice(prompt, choices): #repeatedly prompt the user until they enter a 
         value = input(prompt).strip().lower()
         if value in choices:
             return value
-        print(f"Please enter one of these choices: {', '.join(choices)}") #if asked if vegan or meat eater, cant write anyting else etc. 
+        print(f"Please enter one of these choices: {', '.join(choices)}") #if asked if vegan or meat eater, cant write anyting else etc.
 
 
 def calculate_sleep_score(sleep_hours):
@@ -109,6 +109,7 @@ def calculate_intensity_score(training_intensity):
 
 def calculate_recovery_score(sleep_hours, hydration_liters, protein_grams,
                              soreness_level, training_intensity):
+
     """Combine all subscores into one recovery score out of 100."""
     sleep_score = calculate_sleep_score(sleep_hours)
     hydration_score = calculate_hydration_score(hydration_liters)
