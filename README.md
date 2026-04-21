@@ -11,25 +11,24 @@ and soreness to identify patterns that may indicate poor recovery or increased i
 
 The problem statement is:
 Atheletes often struggle to recognise when their body is at risk or injury due to poor recovery,
-incosnsitent nutrition, or excesive training. This project aims to answer the question - "can we estimate injury risk using daily behavioural input and simple
-computation rules?"
+incosnsitent nutrition, or excesive training. This project aims to answer the question - "can we estimate injury risk using daily behavioural input and simple computation rules?"
 
 Input of the program are as below:
 The program collects daily user data, inclduing:
 - hours of sleep
-- diet, if you are a vegetarian etc
+- diet (e.g., vegetarian, non-vegetarian, vegan) - plan to add more specifc ones like red meat only, pascetarian, gluten free etc
 - type of sport
-- max heart rate, average heart rate and/or training intensity
-- nutrition in terms of supplements
+- training intensity (1–10 scale) and/or heart rate data
+- Supplement usage (yes/no)
 - protein intake
 - hydration level
-- muscle sorenes level
+- muscle soreness level (1–10 scale)
 
 The outputs are:
 - a recovery score
 - an injury risk classification (low, medium,high)
 - warnings about potential recovery or nutrition issues
-- reccomendations for improvement, attaching links or science based methods that are proven to work.
+- recommendations for improvement based on rule-based logic - planning on making the reccomendations links, or advise from professional nutrionists, physiotherapists, athletes, etc
 
 Computational approach is:
 - each input contributes to a recovery or a risk score
@@ -39,7 +38,7 @@ Computational approach is:
 Key concepts i plan to use:
 - abstraction: simplifying key complex biology into measureable inputs
 - decomposition: breaking the problem into smaller components
--algorithm desgin: using rules to compute scores and classifications
+-algorithm desgin: using rule-based logic to compute scores and classifications
 - pattern recognition: identifying trends that increase risk of injury
 
 Features of the output:
