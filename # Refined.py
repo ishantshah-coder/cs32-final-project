@@ -147,7 +147,7 @@ def generate_warnings(sleep_hours, hydration_liters, protein_grams,
     warnings = []
 
     if sleep_hours < 6:
-        warnings.append("Low sleep may reduce recovery and increase injury risk.")
+        warnings.append("Low sleep may reduce recovery and increase injury risk.") #.append() function adds a new item (in your case, a warning message) to the end of a list.
 
     if hydration_liters < 2:
         warnings.append("Low hydration may negatively affect performance and recovery.")
@@ -165,7 +165,7 @@ def generate_warnings(sleep_hours, hydration_liters, protein_grams,
         warnings.append("High intensity combined with low sleep is a risky recovery pattern.")
 
     if soreness_level >= 7 and training_intensity >= 7:
-        warnings.append("High soreness plus hard training may increase injury risk.")
+        warnings.append("High soreness plus hard training may increase injury risk.") #.append() calls, your list might look like it will look like few warning messages in a row like reccs
 
     return warnings
 
