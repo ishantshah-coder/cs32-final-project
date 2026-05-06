@@ -1,0 +1,10 @@
+date,day_number,sleep_hours,hydration_liters,protein_grams,soreness_level,training_intensity,diet_type,sport_type,supplement_use,avg_heart_rate,max_heart_rate,recovery_score,injury_risk
+2026-05-01,1,7.2,2.0,100.0,8,8,vegetarian,squash,yes,180.0,200.0,62,HIGH
+2026-05-01,2,4.0,3.0,80.0,2,5,vegetarian,squash,yes,130.0,150.0,65,MEDIUM
+2026-05-01,3,7.2,1.0,30.0,8,10,non-vegetarian,squash,yes,150.0,180.0,38,HIGH
+2026-05-01,4,7.2,2.3,95.0,6,6,vegetarian,squash,yes,160.0,185.0,70,LOW
+2026-05-01,5,7.2,1.0,60.0,8,8,vegetarian,football,yes,160.0,200.0,47,HIGH
+2026-05-02,6,7.2,1.3,75.0,4,4,vegan,squash,yes,150.0,180.0,60,MEDIUM
+2026-05-05,7,7.2,3.0,89.0,6,5,vegan,squash,yes,170.0,190.0,75,LOW
+2026-05-05,8,7.2,2.4,100.0,6,5,vegan,football,yes,150.0,160.0,70,LOW
+2026-05-05,9,7.2,1.5,110.0,3,6,vegan,squash,yes,130.0,160.0,75,LOW
